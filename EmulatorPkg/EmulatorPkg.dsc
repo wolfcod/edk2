@@ -441,6 +441,7 @@
   }
 
   FatPkg/EnhancedFatDxe/Fat.inf
+  NtfsPkg/NtfsDxe/Ntfs.inf
 
 !if "XCODE5" not in $(TOOL_CHAIN_TAG)
   ShellPkg/DynamicCommand/TftpDynamicCommand/TftpDynamicCommand.inf {
